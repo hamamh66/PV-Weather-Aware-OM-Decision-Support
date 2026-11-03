@@ -1,0 +1,72 @@
+{
+ "weather": {
+  "source": "jehanbhathena/weather-dataset",
+  "test_frac": 0.3,
+  "split_seed": 2026,
+  "classes": [
+   "dew",
+   "fogsmog",
+   "frost",
+   "glaze",
+   "hail",
+   "lightning",
+   "rain",
+   "rainbow",
+   "rime",
+   "sandstorm",
+   "snow"
+  ],
+  "n_development": 4671,
+  "n_test": 2002,
+  "dedup": {
+   "raw": 6862,
+   "duplicate_copies_removed": 187,
+   "conflicting_label_files_removed": 2,
+   "conflicting_groups": 1,
+   "kept": 6673
+  },
+  "test_counts": {
+   "dew": 203,
+   "fogsmog": 246,
+   "frost": 140,
+   "glaze": 177,
+   "hail": 170,
+   "lightning": 111,
+   "rain": 157,
+   "rainbow": 68,
+   "rime": 342,
+   "sandstorm": 206,
+   "snow": 182
+  }
+ },
+ "panel": {
+  "source": "pythonafroz/solar-panel-images",
+  "test_frac": 0.3,
+  "split_seed": 2026,
+  "classes": [
+   "Bird-drop",
+   "Clean",
+   "Dusty",
+   "Electrical-damage",
+   "Physical-Damage",
+   "Snow-Covered"
+  ],
+  "n_development": 554,
+  "n_test": 238,
+  "dedup": {
+   "raw": 885,
+   "duplicate_copies_removed": 85,
+   "conflicting_label_files_removed": 8,
+   "conflicting_groups": 2,
+   "kept": 792
+  },
+  "test_counts": {
+   "Bird-drop": 47,
+   "Clean": 56,
+   "Dusty": 55,
+   "Electrical-damage": 27,
+   "Physical-Damage": 19,
+   "Snow-Covered": 34
+  }
+ }
+}

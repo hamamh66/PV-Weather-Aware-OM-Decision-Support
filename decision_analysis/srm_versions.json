@@ -1,0 +1,1244 @@
+{
+ "v1": {
+  "Dew-Bird_drop": {
+   "Human": "Light cleaning if needed",
+   "IoT": "MODERATE WARNING → Slight moisture and bird droppings detected; monitor panels",
+   "AI": "Auto signal: Suggest cleaning schedule",
+   "Risk": "LOW"
+  },
+  "Dew-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Moisture and irradiance sensors report normal conditions",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Dew-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Electrical_damage": {
+   "Human": "Inspect panel immediately",
+   "IoT": "ALERT → Voltage irregularities detected; moisture may cause short-circuit",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Dew-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "CAUTION → Minor physical damage detected by sensors",
+   "AI": "Auto: Send risk alert",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Snow_Covered": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Slight snow detected; monitor panels",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Bird_drop": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Humidity and low visibility; monitor bird droppings",
+   "AI": "Auto: Adjust expected power output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Humidity and irradiance normal",
+   "AI": "Maintain baseline operation",
+   "Risk": "LOW"
+  },
+  "FogSmog-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Adjust expected output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Electrical_damage": {
+   "Human": "Inspection required",
+   "IoT": "ALERT → Voltage/current anomalies detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Stress sensors triggered",
+   "AI": "Auto: Send high-risk alert",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice accumulation detected",
+   "AI": "Auto: Wait strategy",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost and minor bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected but safe; monitor panels",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "LOW"
+  },
+  "Frost-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + dust; monitor sensors",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Frost-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send high-risk alert",
+   "Risk": "HIGH"
+  },
+  "Frost-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Bird_drop": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Ice accumulation detected; monitor panels",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary inverter shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Ice + dust detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Electrical_damage": {
+   "Human": "Repair required",
+   "IoT": "ALERT → Ground/fault detected",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Glaze-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Tilt/ice sensors triggered",
+   "AI": "Auto: Shutdown inverter",
+   "Risk": "HIGH"
+  },
+  "Glaze-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Bird_drop": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Impact detected by sensors",
+   "AI": "Auto: Log output deviation",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Clean": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Monitor output post-storm",
+   "AI": "Auto: Post-storm assessment",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Dusty": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Dust & impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "HIGH"
+  },
+  "Hail-Electrical_damage": {
+   "Human": "Inspection required",
+   "IoT": "ALERT → Voltage & impact sensors triggered",
+   "AI": "Auto: Disconnect panel",
+   "Risk": "HIGH"
+  },
+  "Hail-Physical_Damage": {
+   "Human": "Replace panels",
+   "IoT": "ALERT → Impact sensors triggered",
+   "AI": "Auto: Disconnect damaged panels",
+   "Risk": "HIGH"
+  },
+  "Hail-Snow_Covered": {
+   "Human": "Optional removal",
+   "IoT": "MODERATE WARNING → Snow/impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Bird_drop": {
+   "Human": "Optional inspection",
+   "IoT": "ALERT → Surge sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "HIGH"
+  },
+  "Lightning-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensors normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Dusty": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Surge + dust sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Electrical_damage": {
+   "Human": "Immediate inspection",
+   "IoT": "ALERT → Surge detected",
+   "AI": "Auto: Disconnect grid",
+   "Risk": "HIGH"
+  },
+  "Lightning-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Voltage/surge sensor triggered",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Lightning-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensor normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Bird_drop": {
+   "Human": "Optional cleaning",
+   "IoT": "NORMAL → Rain sensor reports moisture; panels safe",
+   "AI": "Auto: Evaluate cleaning effect",
+   "Risk": "LOW"
+  },
+  "Rain-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Rainwater detected, panels functioning",
+   "AI": "Maintain forecast model",
+   "Risk": "LOW"
+  },
+  "Rain-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → Dust + rain; monitor panels",
+   "AI": "Auto: Cancel cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Electrical_damage": {
+   "Human": "Inspect if anomaly",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rain-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Stress sensor triggered",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Rain-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Rain + snow sensor",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Bird_drop": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Minor dust detected",
+   "AI": "Auto: Suggest cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Electrical_damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Minor anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Sensors triggered",
+   "AI": "Auto: Alert",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + minor debris",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected; safe operation",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Rime-Dusty": {
+   "Human": "Optional cleaning after thaw",
+   "IoT": "MODERATE WARNING → Frost + dust",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rime-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Rime-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Bird_drop": {
+   "Human": "Inspect panels",
+   "IoT": "MODERATE WARNING → Dust & particles detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Clean": {
+   "Human": "Optional cleaning later",
+   "IoT": "MODERATE WARNING → Dust detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → High dust detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Electrical_damage": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Physical_Damage": {
+   "Human": "Inspect panels",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Dust + snow detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Snow detected; panels safe",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "LOW"
+  },
+  "Snow-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + dust detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Snow-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Structural sensors triggered",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Snow-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  }
+ },
+ "v2": {
+  "Dew-Bird_drop": {
+   "Human": "Light cleaning if needed",
+   "IoT": "MODERATE WARNING → Slight moisture and bird droppings detected; monitor panels",
+   "AI": "Auto signal: Suggest cleaning schedule",
+   "Risk": "LOW"
+  },
+  "Dew-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Moisture and irradiance sensors report normal conditions",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Dew-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Electrical_damage": {
+   "Human": "Inspect panel immediately",
+   "IoT": "ALERT → Voltage irregularities detected; moisture may cause short-circuit",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Dew-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "CAUTION → Minor physical damage detected by sensors",
+   "AI": "Auto: Send risk alert",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Snow_Covered": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Slight snow detected; monitor panels",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Bird_drop": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Humidity and low visibility; monitor bird droppings",
+   "AI": "Auto: Adjust expected power output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Humidity and irradiance normal",
+   "AI": "Maintain baseline operation",
+   "Risk": "LOW"
+  },
+  "FogSmog-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Adjust expected output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Electrical_damage": {
+   "Human": "Inspection required",
+   "IoT": "ALERT → Voltage/current anomalies detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Stress sensors triggered",
+   "AI": "Auto: Send high-risk alert",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice accumulation detected",
+   "AI": "Auto: Wait strategy",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost and minor bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected but safe; monitor panels",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "LOW"
+  },
+  "Frost-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + dust; monitor sensors",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Frost-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send high-risk alert",
+   "Risk": "HIGH"
+  },
+  "Frost-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Bird_drop": {
+   "Human": "Delay cleaning until the ice has melted",
+   "IoT": "MODERATE WARNING → Ice accumulation detected; monitor panels",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary inverter shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Dusty": {
+   "Human": "Delay cleaning until the ice has melted",
+   "IoT": "MODERATE WARNING → Ice + dust detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Electrical_damage": {
+   "Human": "Repair required",
+   "IoT": "ALERT → Ground/fault detected",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Glaze-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Tilt/ice sensors triggered",
+   "AI": "Auto: Shutdown inverter",
+   "Risk": "HIGH"
+  },
+  "Glaze-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Bird_drop": {
+   "Human": "Optional inspection after the storm",
+   "IoT": "MODERATE WARNING → Impact detected by sensors",
+   "AI": "Auto: Log output deviation",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Clean": {
+   "Human": "Optional inspection after the storm",
+   "IoT": "MODERATE WARNING → Monitor output post-storm",
+   "AI": "Auto: Post-storm assessment",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Dusty": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Dust & impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "HIGH"
+  },
+  "Hail-Electrical_damage": {
+   "Human": "De-energised inspection by qualified personnel after the storm",
+   "IoT": "ALERT → Voltage & impact sensors triggered",
+   "AI": "Auto: Disconnect panel",
+   "Risk": "HIGH"
+  },
+  "Hail-Physical_Damage": {
+   "Human": "Replace damaged panels after the storm",
+   "IoT": "ALERT → Impact sensors triggered",
+   "AI": "Auto: Disconnect damaged panels",
+   "Risk": "HIGH"
+  },
+  "Hail-Snow_Covered": {
+   "Human": "Optional removal after the storm",
+   "IoT": "MODERATE WARNING → Snow/impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Bird_drop": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "ALERT → Surge sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "HIGH"
+  },
+  "Lightning-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensors normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Dusty": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "MODERATE WARNING → Surge + dust sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Electrical_damage": {
+   "Human": "No on-site work; remote isolation; de-energised inspection by qualified personnel after the storm",
+   "IoT": "ALERT → Surge detected",
+   "AI": "Auto: Disconnect grid",
+   "Risk": "HIGH"
+  },
+  "Lightning-Physical_Damage": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "ALERT → Voltage/surge sensor triggered",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Lightning-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensor normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Bird_drop": {
+   "Human": "Optional cleaning",
+   "IoT": "NORMAL → Rain sensor reports moisture; panels safe",
+   "AI": "Auto: Evaluate cleaning effect",
+   "Risk": "LOW"
+  },
+  "Rain-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Rainwater detected, panels functioning",
+   "AI": "Maintain forecast model",
+   "Risk": "LOW"
+  },
+  "Rain-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → Dust + rain; monitor panels",
+   "AI": "Auto: Cancel cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Electrical_damage": {
+   "Human": "Inspect if anomaly",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rain-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Stress sensor triggered",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Rain-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Rain + snow sensor",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Bird_drop": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Minor dust detected",
+   "AI": "Auto: Suggest cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Electrical_damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Minor anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Sensors triggered",
+   "AI": "Auto: Alert",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + minor debris",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected; safe operation",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Rime-Dusty": {
+   "Human": "Optional cleaning after thaw",
+   "IoT": "MODERATE WARNING → Frost + dust",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rime-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Rime-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Bird_drop": {
+   "Human": "Inspect after the storm",
+   "IoT": "MODERATE WARNING → Dust & particles detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Clean": {
+   "Human": "Optional cleaning later",
+   "IoT": "MODERATE WARNING → Dust detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → High dust detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Electrical_damage": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Physical_Damage": {
+   "Human": "Inspect after the storm",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Dust + snow detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Snow detected; panels safe",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "LOW"
+  },
+  "Snow-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + dust detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Snow-Physical_Damage": {
+   "Human": "Inspect panel",
+   "IoT": "ALERT → Structural sensors triggered",
+   "AI": "Auto: Send alert",
+   "Risk": "HIGH"
+  },
+  "Snow-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  }
+ },
+ "v3": {
+  "Dew-Bird_drop": {
+   "Human": "Light cleaning if needed",
+   "IoT": "MODERATE WARNING → Slight moisture and bird droppings detected; monitor panels",
+   "AI": "Auto signal: Suggest cleaning schedule",
+   "Risk": "LOW"
+  },
+  "Dew-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Moisture and irradiance sensors report normal conditions",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Dew-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Electrical_damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Voltage irregularities detected; moisture may cause short-circuit",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Dew-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "CAUTION → Minor physical damage detected by sensors",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "MEDIUM"
+  },
+  "Dew-Snow_Covered": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Slight snow detected; monitor panels",
+   "AI": "Auto: Postpone cleaning",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Bird_drop": {
+   "Human": "Optional inspection",
+   "IoT": "MODERATE WARNING → Humidity and low visibility; monitor bird droppings",
+   "AI": "Auto: Adjust expected power output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Humidity and irradiance normal",
+   "AI": "Maintain baseline operation",
+   "Risk": "LOW"
+  },
+  "FogSmog-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Dust detected; monitor output",
+   "AI": "Auto: Adjust expected output",
+   "Risk": "MEDIUM"
+  },
+  "FogSmog-Electrical_damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Voltage/current anomalies detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Stress sensors triggered",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "FogSmog-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice accumulation detected",
+   "AI": "Auto: Wait strategy",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost and minor bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected but safe; monitor panels",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "LOW"
+  },
+  "Frost-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + dust; monitor sensors",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Frost-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Frost-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Frost-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Bird_drop": {
+   "Human": "Delay cleaning until the ice has melted",
+   "IoT": "MODERATE WARNING → Ice accumulation detected; monitor panels",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary inverter shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Dusty": {
+   "Human": "Delay cleaning until the ice has melted",
+   "IoT": "MODERATE WARNING → Ice + dust detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Glaze-Electrical_damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel after the thaw",
+   "IoT": "ALERT → Ground/fault detected",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Glaze-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel after the thaw",
+   "IoT": "ALERT → Tilt/ice sensors triggered",
+   "AI": "Auto: Shutdown inverter",
+   "Risk": "HIGH"
+  },
+  "Glaze-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Ice detected",
+   "AI": "Auto: Temporary shutdown",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Bird_drop": {
+   "Human": "Optional inspection after the storm",
+   "IoT": "MODERATE WARNING → Impact detected by sensors",
+   "AI": "Auto: Log output deviation",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Clean": {
+   "Human": "Optional inspection after the storm",
+   "IoT": "MODERATE WARNING → Monitor output post-storm",
+   "AI": "Auto: Post-storm assessment",
+   "Risk": "MEDIUM"
+  },
+  "Hail-Dusty": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Dust & impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "HIGH"
+  },
+  "Hail-Electrical_damage": {
+   "Human": "De-energised inspection by qualified personnel after the storm",
+   "IoT": "ALERT → Voltage & impact sensors triggered",
+   "AI": "Auto: Disconnect panel",
+   "Risk": "HIGH"
+  },
+  "Hail-Physical_Damage": {
+   "Human": "Replace damaged panels after the storm",
+   "IoT": "ALERT → Impact sensors triggered",
+   "AI": "Auto: Disconnect damaged panels",
+   "Risk": "HIGH"
+  },
+  "Hail-Snow_Covered": {
+   "Human": "Optional removal after the storm",
+   "IoT": "MODERATE WARNING → Snow/impact detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Bird_drop": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "ALERT → Surge sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "HIGH"
+  },
+  "Lightning-Clean": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensors normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Dusty": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "MODERATE WARNING → Surge + dust sensors triggered",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Lightning-Electrical_damage": {
+   "Human": "No on-site work; remote isolation; de-energised inspection by qualified personnel after the storm",
+   "IoT": "ALERT → Surge detected",
+   "AI": "Auto: Disconnect grid",
+   "Risk": "HIGH"
+  },
+  "Lightning-Physical_Damage": {
+   "Human": "No on-site work; inspect after the storm (30 min after the last thunder)",
+   "IoT": "ALERT → Voltage/surge sensor triggered",
+   "AI": "Auto: Isolate circuits",
+   "Risk": "HIGH"
+  },
+  "Lightning-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Surge sensor normal",
+   "AI": "Auto: Health check",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Bird_drop": {
+   "Human": "Optional cleaning",
+   "IoT": "NORMAL → Rain sensor reports moisture; panels safe",
+   "AI": "Auto: Evaluate cleaning effect",
+   "Risk": "LOW"
+  },
+  "Rain-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Rainwater detected, panels functioning",
+   "AI": "Maintain forecast model",
+   "Risk": "LOW"
+  },
+  "Rain-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → Dust + rain; monitor panels",
+   "AI": "Auto: Cancel cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rain-Electrical_damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rain-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Stress sensor triggered",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Rain-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Rain + snow sensor",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Bird_drop": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → No risk detected",
+   "AI": "Monitor only",
+   "Risk": "LOW"
+  },
+  "Rainbow-Dusty": {
+   "Human": "Optional cleaning",
+   "IoT": "MODERATE WARNING → Minor dust detected",
+   "AI": "Auto: Suggest cleaning",
+   "Risk": "MEDIUM"
+  },
+  "Rainbow-Electrical_damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel once the modules are dry",
+   "IoT": "ALERT → Sensors triggered",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Rainbow-Snow_Covered": {
+   "Human": "Optional wait",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Frost + minor debris",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Frost detected; safe operation",
+   "AI": "Maintain normal operation",
+   "Risk": "LOW"
+  },
+  "Rime-Dusty": {
+   "Human": "Optional cleaning after thaw",
+   "IoT": "MODERATE WARNING → Frost + dust",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Rime-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Rime-Physical_Damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Rime-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Bird_drop": {
+   "Human": "Inspect after the storm",
+   "IoT": "MODERATE WARNING → Dust & particles detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Clean": {
+   "Human": "Optional cleaning later",
+   "IoT": "MODERATE WARNING → Dust detected",
+   "AI": "Auto: Reduce output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Dusty": {
+   "Human": "Skip cleaning",
+   "IoT": "MODERATE WARNING → High dust detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Sandstorm-Electrical_damage": {
+   "Human": "Inspect after storm",
+   "IoT": "ALERT → Voltage anomalies detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Physical_Damage": {
+   "Human": "Inspect after the storm",
+   "IoT": "ALERT → Structural stress detected",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Sandstorm-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Dust + snow detected",
+   "AI": "Auto: Derate output",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Bird_drop": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + bird droppings detected",
+   "AI": "Auto: Wait-for-melt",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Clean": {
+   "Human": "No action",
+   "IoT": "NORMAL → Snow detected; panels safe",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "LOW"
+  },
+  "Snow-Dusty": {
+   "Human": "Delay cleaning",
+   "IoT": "MODERATE WARNING → Snow + dust detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  },
+  "Snow-Electrical_damage": {
+   "Human": "Inspect after thaw",
+   "IoT": "ALERT → Voltage anomaly detected",
+   "AI": "Auto: Isolate string",
+   "Risk": "HIGH"
+  },
+  "Snow-Physical_Damage": {
+   "Human": "Isolate the string first; de-energised inspection by qualified personnel after the thaw",
+   "IoT": "ALERT → Structural sensors triggered",
+   "AI": "Auto: Isolate affected string",
+   "Risk": "HIGH"
+  },
+  "Snow-Snow_Covered": {
+   "Human": "No action",
+   "IoT": "MODERATE WARNING → Snow detected",
+   "AI": "Auto: Wait-for-clear",
+   "Risk": "MEDIUM"
+  }
+ },
+ "audit": {
+  "v1": {
+   "n_rules_violating": 26,
+   "by_principle": {
+    "P1": 4,
+    "P2": 0,
+    "P3": 2,
+    "P4": 7,
+    "P5": 14
+   }
+  },
+  "v2": {
+   "n_rules_violating": 14,
+   "by_principle": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 14
+   }
+  },
+  "v3": {
+   "n_rules_violating": 0,
+   "by_principle": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0
+   }
+  }
+ },
+ "changed_v3": [
+  "Dew-Electrical_damage",
+  "Dew-Physical_Damage",
+  "FogSmog-Electrical_damage",
+  "FogSmog-Physical_Damage",
+  "Frost-Physical_Damage",
+  "Glaze-Electrical_damage",
+  "Glaze-Physical_Damage",
+  "Rain-Electrical_damage",
+  "Rain-Physical_Damage",
+  "Rainbow-Electrical_damage",
+  "Rainbow-Physical_Damage",
+  "Rime-Physical_Damage",
+  "Sandstorm-Physical_Damage",
+  "Snow-Physical_Damage"
+ ]
+}

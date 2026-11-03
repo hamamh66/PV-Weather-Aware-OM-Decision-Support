@@ -1,0 +1,510 @@
+{
+ "weather": [
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/dew/2432.jpg",
+   "label": "dew",
+   "predicted": "frost",
+   "mean_conf": 0.31722869873046877
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4539.jpg",
+   "label": "fogsmog",
+   "predicted": "rain",
+   "mean_conf": 0.3080810546875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4654.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.6477333068847656
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4705.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.95224609375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4713.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.99560546875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4778.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.96064453125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4803.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.786669921875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/fogsmog/4892.jpg",
+   "label": "fogsmog",
+   "predicted": "sandstorm",
+   "mean_conf": 0.76474609375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3621.jpg",
+   "label": "frost",
+   "predicted": "glaze",
+   "mean_conf": 0.83203125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3625.jpg",
+   "label": "frost",
+   "predicted": "glaze",
+   "mean_conf": 0.90791015625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3647.jpg",
+   "label": "frost",
+   "predicted": "rime",
+   "mean_conf": 0.96474609375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3681.jpg",
+   "label": "frost",
+   "predicted": "rime",
+   "mean_conf": 0.86689453125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3770.jpg",
+   "label": "frost",
+   "predicted": "glaze",
+   "mean_conf": 0.78603515625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3797.jpg",
+   "label": "frost",
+   "predicted": "glaze",
+   "mean_conf": 0.7984375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3946.jpg",
+   "label": "frost",
+   "predicted": "rime",
+   "mean_conf": 0.47141284942626954
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3950.jpg",
+   "label": "frost",
+   "predicted": "rain",
+   "mean_conf": 0.69560546875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3983.jpg",
+   "label": "frost",
+   "predicted": "dew",
+   "mean_conf": 0.612933349609375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/frost/3994.jpg",
+   "label": "frost",
+   "predicted": "glaze",
+   "mean_conf": 0.91083984375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6185.jpg",
+   "label": "glaze",
+   "predicted": "frost",
+   "mean_conf": 0.6080078125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6205.jpg",
+   "label": "glaze",
+   "predicted": "frost",
+   "mean_conf": 0.79130859375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6363.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.73310546875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6380.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.86796875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6436.jpg",
+   "label": "glaze",
+   "predicted": "dew",
+   "mean_conf": 0.9818359375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6438.jpg",
+   "label": "glaze",
+   "predicted": "snow",
+   "mean_conf": 0.91201171875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6582.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.493359375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6602.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.886328125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6613.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.7939453125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6654.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.976953125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6661.jpg",
+   "label": "glaze",
+   "predicted": "rime",
+   "mean_conf": 0.746337890625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/glaze/6701.jpg",
+   "label": "glaze",
+   "predicted": "dew",
+   "mean_conf": 0.95380859375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/hail/0086.jpg",
+   "label": "hail",
+   "predicted": "dew",
+   "mean_conf": 0.89970703125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rain/1175.jpg",
+   "label": "rain",
+   "predicted": "dew",
+   "mean_conf": 0.98984375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rain/1257.jpg",
+   "label": "rain",
+   "predicted": "fogsmog",
+   "mean_conf": 0.91962890625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rain/1427.jpg",
+   "label": "rain",
+   "predicted": "dew",
+   "mean_conf": 0.6158355712890625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rain/1723.jpg",
+   "label": "rain",
+   "predicted": "snow",
+   "mean_conf": 0.532666015625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5148.jpg",
+   "label": "rime",
+   "predicted": "frost",
+   "mean_conf": 0.5577672004699707
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5164.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.6845703125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5180.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.731298828125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5193.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.9673828125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5211.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.642041015625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5656.jpg",
+   "label": "rime",
+   "predicted": "fogsmog",
+   "mean_conf": 0.7570556640625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5661.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.5297607421875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5668.jpg",
+   "label": "rime",
+   "predicted": "snow",
+   "mean_conf": 0.73369140625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5679.jpg",
+   "label": "rime",
+   "predicted": "snow",
+   "mean_conf": 0.98876953125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5680.jpg",
+   "label": "rime",
+   "predicted": "frost",
+   "mean_conf": 0.993359375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5692.jpg",
+   "label": "rime",
+   "predicted": "frost",
+   "mean_conf": 0.98427734375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5778.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.9908203125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5779.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.85283203125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5842.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.8615234375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/rime/5916.jpg",
+   "label": "rime",
+   "predicted": "glaze",
+   "mean_conf": 0.66455078125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/2936.jpg",
+   "label": "sandstorm",
+   "predicted": "rain",
+   "mean_conf": 0.740545654296875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/2964.jpg",
+   "label": "sandstorm",
+   "predicted": "fogsmog",
+   "mean_conf": 0.97236328125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/3084.jpg",
+   "label": "sandstorm",
+   "predicted": "fogsmog",
+   "mean_conf": 0.856640625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/3130.jpg",
+   "label": "sandstorm",
+   "predicted": "fogsmog",
+   "mean_conf": 0.99296875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/3205.jpg",
+   "label": "sandstorm",
+   "predicted": "fogsmog",
+   "mean_conf": 0.8626953125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/3515.jpg",
+   "label": "sandstorm",
+   "predicted": "fogsmog",
+   "mean_conf": 0.96103515625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/sandstorm/3543.jpg",
+   "label": "sandstorm",
+   "predicted": "rain",
+   "mean_conf": 0.60908203125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/0876.jpg",
+   "label": "snow",
+   "predicted": "hail",
+   "mean_conf": 0.43978404998779297
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/0878.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.711328125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/0906.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.5104736328125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/0955.jpg",
+   "label": "snow",
+   "predicted": "glaze",
+   "mean_conf": 0.5044944763183594
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1072.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.83212890625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1098.jpg",
+   "label": "snow",
+   "predicted": "glaze",
+   "mean_conf": 0.5476318359375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1105.jpg",
+   "label": "snow",
+   "predicted": "rain",
+   "mean_conf": 0.681787109375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1137.jpg",
+   "label": "snow",
+   "predicted": "rain",
+   "mean_conf": 0.66875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1184.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.98955078125
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1192.jpg",
+   "label": "snow",
+   "predicted": "rain",
+   "mean_conf": 0.98369140625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1210.jpg",
+   "label": "snow",
+   "predicted": "glaze",
+   "mean_conf": 0.7103515625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1257.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.70927734375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1327.jpg",
+   "label": "snow",
+   "predicted": "glaze",
+   "mean_conf": 0.517431640625
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1338.jpg",
+   "label": "snow",
+   "predicted": "hail",
+   "mean_conf": 0.542596435546875
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1383.jpg",
+   "label": "snow",
+   "predicted": "rime",
+   "mean_conf": 0.8505859375
+  },
+  {
+   "file": "jehanbhathena/weather-dataset/versions/3/dataset/snow/1449.jpg",
+   "label": "snow",
+   "predicted": "frost",
+   "mean_conf": 0.96513671875
+  }
+ ],
+ "panel": [
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Bird-drop/Bird (3).jpeg",
+   "label": "Bird-drop",
+   "predicted": "Physical-Damage",
+   "mean_conf": 0.98984375
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Bird-drop/Bird (92).jpg",
+   "label": "Bird-drop",
+   "predicted": "Electrical-damage",
+   "mean_conf": 0.48955078125
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Bird-drop/Bird (93).jpg",
+   "label": "Bird-drop",
+   "predicted": "Dusty",
+   "mean_conf": 0.97880859375
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Bird-drop/Bird (95).jpg",
+   "label": "Bird-drop",
+   "predicted": "Dusty",
+   "mean_conf": 0.90126953125
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Clean/Clean (53).jpg",
+   "label": "Clean",
+   "predicted": "Electrical-damage",
+   "mean_conf": 0.9359375
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Clean/Clean (82).jpg",
+   "label": "Clean",
+   "predicted": "Dusty",
+   "mean_conf": 0.97568359375
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Clean/Clean (88).jpg",
+   "label": "Clean",
+   "predicted": "Dusty",
+   "mean_conf": 0.88251953125
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Dusty/Dust (20).jpg",
+   "label": "Dusty",
+   "predicted": "Electrical-damage",
+   "mean_conf": 0.7734375
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Dusty/Dust (63).jpg",
+   "label": "Dusty",
+   "predicted": "Bird-drop",
+   "mean_conf": 0.92783203125
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Electrical-damage/Electrical (97).jpg",
+   "label": "Electrical-damage",
+   "predicted": "Bird-drop",
+   "mean_conf": 0.76669921875
+  },
+  {
+   "file": "pythonafroz/solar-panel-images/versions/2/Faulty_solar_panel/Physical-Damage/Physical (54).jpg",
+   "label": "Physical-Damage",
+   "predicted": "Dusty",
+   "mean_conf": 0.65654296875
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+{"title": "PV-Weather-Aware-OM-Decision-Support: code and results for weather-aware decision support in PV operation and maintenance",
+ "upload_type": "software", "creators": [{"name": "Hamam, Habib", "affiliation": "Université de Moncton"}],
+ "license": "MIT", "keywords": ["photovoltaic", "operation and maintenance", "vision transformers", "decision support", "large language models"]}

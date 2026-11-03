@@ -1,0 +1,43 @@
+{
+ "SimpleCNN": {
+  "params_M": 0.392203,
+  "GFLOPs": 1.473975808,
+  "gpu_ms_batch1": 0.49641996156424284,
+  "cpu_ms_batch1": 14.607095974497497
+ },
+ "ResNet-18": {
+  "params_M": 11.182155,
+  "GFLOPs": 3.627133952,
+  "gpu_ms_batch1": 1.4787744730710983,
+  "cpu_ms_batch1": 22.94046350289136
+ },
+ "EfficientNet-B0": {
+  "params_M": 4.021639,
+  "GFLOPs": 0.769097664,
+  "gpu_ms_batch1": 3.5903070820495486,
+  "cpu_ms_batch1": 13.97075701970607
+ },
+ "ViT-Tiny": {
+  "params_M": 5.526539,
+  "GFLOPs": 2.506986624,
+  "gpu_ms_batch1": 2.5723775615915656,
+  "cpu_ms_batch1": 18.199707963503897
+ },
+ "MiT-B0": {
+  "params_M": 3.322219,
+  "GFLOPs": 0.904428032,
+  "gpu_ms_batch1": 3.8505439879372716,
+  "cpu_ms_batch1": 13.662075973115861
+ },
+ "Swin-Tiny": {
+  "params_M": 27.527813,
+  "GFLOPs": 8.979614208,
+  "gpu_ms_batch1": 6.456381408497691,
+  "cpu_ms_batch1": 65.98306412342936
+ },
+ "_device": {
+  "gpu": "NVIDIA H100 80GB HBM3 MIG 1g.10gb",
+  "cpu_threads": 2,
+  "note": "full classifier with 11 outputs; FLOPs counted by torch.utils.flop_counter for one 224x224 image (a multiply-add counts as two FLOPs)"
+ }
+}
